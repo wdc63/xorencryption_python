@@ -1,7 +1,7 @@
 # xorencryption_python
 2018-11-19
 
-webapp由于flexx采用的pyscript不支持string的encode和decode方法，因此采用对每个字符单独用key加密实现，效率较低，但日日常使用还行。
+webapp由于flexx采用的pyscript不支持string的encode和decode方法，因此采用对每个字符单独用key加密实现，效率相对较低，但日日常使用还行。
 
 demo演示地址：http://123.206.114.168:12358/encrypt_decrypt/
 
