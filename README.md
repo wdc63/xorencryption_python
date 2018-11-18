@@ -1,5 +1,12 @@
 # xorencryption_python
+2018-11-19
 
+webapp由于flexx采用的pyscript不支持string的encode和decode方法，因此采用对每个字符单独用key加密实现，效率较低，但日日常使用还行。
+
+demo演示地址：http://123.206.114.168:12358/encrypt_decrypt/
+
+================================================================================================================================
+2018-11-18
 A practical  XOR encryption script can encrypt any string or text written in Python. 一个实用的python按位异或对称加密脚本，可以加密任何文本成数字。
 
 该脚本将string类型通过bytes，hex再转换为10进制数字，根据输入string长度得到更长位的key长度，只进行一次位运算，因此算法复杂度较低。使用的按位异或计算对象为：key*(10**(len(string_int)+1))，根据香农的论文，该加密方式具有安全性。
